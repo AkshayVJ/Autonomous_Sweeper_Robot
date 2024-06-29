@@ -1,0 +1,8 @@
+<launch>
+
+  <include file="$(find sweeper_robot_description_package)/launch/gazebo.launch" />
+
+  <include file="$(find sweeper_robot_description_package)/launch/test_ground.launch">
+  </include>
+
+</launch>
